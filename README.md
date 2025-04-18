@@ -1,70 +1,83 @@
-# Getting Started with Create React App
+<h1 align="center">🔐 Login Traffic Simulation with Firebase & ReactJS</h1>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<p align="center">
+  A lightweight authentication load simulation built using <strong>ReactJS</strong> and <strong>Firebase Authentication</strong> (Free Tier). This project demonstrates how to simulate high-volume concurrent logins, track performance, and handle traffic using only free tools.
+</p>
 
-## Available Scripts
+<hr />
 
-In the project directory, you can run:
+<h2>🚀 Objective</h2>
+<ul>
+  <li>Simulate 50+ virtual user logins at the same time</li>
+  <li>Track login <strong>latency</strong> and <strong>status (success/failure)</strong></li>
+  <li>Auto create user accounts and automate login/logout sessions</li>
+  <li>Visualize real-time login results on a simple dashboard</li>
+</ul>
 
-### `npm start`
+<h2>🛠️ Tech Stack</h2>
+<ul>
+  <li><strong>Frontend:</strong> React.js</li>
+  <li><strong>Auth Service:</strong> Firebase Authentication (Free Tier)</li>
+  <li><strong>Mock Data:</strong> JSON array of users</li>
+</ul>
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+<h2>✨ Key Features</h2>
+<ul>
+  <li>🔁 Auto-create user accounts using Firebase Auth</li>
+  <li>🔐 Auto-login with delay-based logic</li>
+  <li>📉 Real-time latency and response status tracking</li>
+  <li>🕐 Auto-logout after a fixed session time</li>
+  <li>📋 Dashboard with email, status, latency, and timestamp logs</li>
+</ul>
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+<h2>🧩 What Makes This Unique?</h2>
+<ul>
+  <li>✅ No paid tools used for simulation or monitoring</li>
+  <li>⚙️ Smartly handles multiple sessions using simple logic</li>
+  <li>📊 Lightweight solution perfect for MVP and prototyping needs</li>
+  <li>💡 Demonstrates real-world login traffic in a test environment</li>
+</ul>
 
-### `npm test`
+<h2>📸 Demo Screenshot</h2>
+<p><i>(Add screenshot here of your dashboard)</i></p>
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+<h2>📂 Folder Structure</h2>
 
-### `npm run build`
+<pre>
+src/
+├── components/
+│   ├── LoginTester.js
+├── firebase/
+│   ├── firebase.js
+├── mock/
+│   ├── users.js
+├── App.js
+├── index.js
+</pre>
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+<h2>📦 Getting Started</h2>
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+<pre>
+1. Clone the repository
+2. Run <code>npm install</code>
+3. Replace Firebase config in <code>firebase.js</code>
+4. Run <code>npm start</code>
+</pre>
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+<h2>📬 Let's Connect</h2>
 
-### `npm run eject`
+<p>
+Made with ❤️ by <strong>Tushar Gupta</strong> <br />
+If this project helped or inspired you, feel free to connect and share feedback!
+</p>
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+<p>
+  <a href="https://www.linkedin.com/in/imtushaarr" target="_blank">🌐 LinkedIn</a> |
+  <a href="mailto:tusharguptagps@gmail.com">📧 Email</a>
+</p>
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+<hr />
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+<p align="center">
+  <em>#ReactJS #Firebase #Authentication #LoadTesting #MVP #FreeTools #WebDevelopment</em>
+</p>
